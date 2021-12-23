@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/Study/RestAssured">
+        <classes>
+            <class name="testCases.creditapiSimulatorTests"><methods>
+                <include name="test_getAllRecordedSimulations"/><include name="test_addNewRecord"/><include name="test_getSimulation"/><include name="test_updateSimulation"/><include name="test_deleteSimulation"/>
+            </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,6 @@
+dependencies needed in pom
+-RestAssured
+-TestNG
+-Json-simple
+-apache poi, apache poi ooxml
+
