@@ -1,0 +1,21 @@
+
+https://github.com/Interlude9/RestAssuredCreditApiSimulator.git
+
+WS - D:\Study\RestAssured
+
+
+-----------------------------GIT Commands--------------------------------------------
+
+git init -> Create an empty git repository(Local repository)
+git remote add origin "https://github.com/Interlude9/RestAssuredCreditApiSimulator.git"  ---to connect local and remote repository
+
+git status
+
+git add -A  ----send all the files in staging area
+
+Before doing commit first time we need to execute these below commands
+git config --global user.name "Interlude9"
+git config --global user.email "tanvilearn@gmail.com"
+
+git commit -m "write some comment"  -------commit all files from staging area to git (local repository)
+git push -u origin master  --- send all the files from git(local) to github(remote)
